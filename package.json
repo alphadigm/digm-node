@@ -1,5 +1,5 @@
 {
-  "name": "@alphadigm/digm",
+  "name": "digm",
   "version": "0.0.1",
   "description": "Node CLI for digm, but it doesn't do anything yet",
   "repository": {
