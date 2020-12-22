@@ -7,7 +7,9 @@
     "url": "https://github.com/alphadigm/digm-node.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public",
+    "scope": "@alphadigm"
   },
   "main": "index.js",
   "bin": {
