@@ -1,10 +1,13 @@
 {
-  "name": "digm",
-  "version": "0.0.1",
+  "name": "@alphadigm/digm",
+  "version": "0.0.2",
   "description": "Node CLI for digm, but it doesn't do anything yet",
   "repository": {
     "type": "git",
     "url": "https://github.com/alphadigm/digm-node.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "main": "index.js",
   "bin": {
@@ -15,7 +18,7 @@
     "cli",
     "digm"
   ],
-  "author": "alphadigm",
+  "author": "alphadigm <hello@alphadigm.com>",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.0",
