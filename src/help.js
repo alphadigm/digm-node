@@ -1,5 +1,6 @@
-import chalk from 'chalk';
-import { versionString } from './version';
+// NPM libraries
+const chalk = require('chalk');
+const {versionString} = require('./version');
 
 const menus = {
   main: `

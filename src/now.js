@@ -4,7 +4,8 @@ const Table = require('cli-table3');
 const axios = require('axios');
 const date = require('date-and-time');
 // Project classes
-import { configKey } from './configr';
+const configKey = require('./configr');
+// import { configKey } from './configr';
 import {
   validateApiKey,
   validateCityId,

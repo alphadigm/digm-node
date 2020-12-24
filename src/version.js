@@ -1,7 +1,9 @@
-const packagejson = require('../package.json');
-const executionPath = __dirname.toString();
-
+// NPM libraries
 const chalk = require('chalk');
+// Project files
+const packagejson = require('../package.json');
+const executionPath = process.argv[1].toString();
+
 const buildVersion = {
     main: `
   ${chalk.greenBright(packagejson.name)} ${chalk.yellowBright(packagejson.version)} ${executionPath}

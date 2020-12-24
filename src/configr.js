@@ -1,4 +1,5 @@
-import Conf from 'conf';
+// NPM libraries
+const Conf = require('conf');
 import { validateApiKey, validateCityId, validateUnits } from './utils';
 
 export const configKey = 'digm-cli';

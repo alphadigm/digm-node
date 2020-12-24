@@ -1,11 +1,11 @@
 // STANDARD CLI FUNCTIONS
-import { configr } from './configr';
-import { help } from './help';
-import { version } from './version';
+const {configr} = require('./configr');
+const {help} = require('./help');
+const {version} = require('./version');
 // CLI ARGUMENTS GUTS
 const minimist = require('minimist');
 // WEATHER-CALLING-API
-import { now } from './now'; 
+const {now} = require('./now');
 
 // CLI ENTRY
 export async function cli(argsArray) {

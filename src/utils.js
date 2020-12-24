@@ -1,4 +1,5 @@
-import axios from 'axios';
+// NPM libraries
+const axios = require('axios');
 
 export async function validateApiKey() {return 1;}
 export async function validateCityId() {return 1;}
