@@ -1,28 +1,24 @@
 {
-  "name": "@alphadigm/digm",
+  "name": "digm",
   "version": "0.0.3",
   "description": "Node CLI for digm, but it doesn't do anything yet",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alphadigm/digm-node.git"
+    "url": "git+https://github.com/alphadigm/digm-node.git"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
+    "registry": "https://registry.npmjs.org/"
   },
   "main": "index.js",
   "bin": {
-    "digm": "./index.js"
+    "digm": "index.js"
   },
   "keywords": [
     "node",
     "cli",
     "digm"
   ],
-  "author": {
-    "name": "alphadigm",
-    "email": "hello@alphadigm.com"
-  },
+  "author": "alphadigm <hello@alphadigm.com>",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
@@ -34,5 +30,13 @@
     "jshint": "^2.12.0",
     "minimist": "^1.2.5",
     "yargs": "^16.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/alphadigm/digm-node/issues"
+  },
+  "homepage": "https://github.com/alphadigm/digm-node#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "now"
   }
 }
