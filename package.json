@@ -37,6 +37,6 @@
   "homepage": "https://github.com/alphadigm/digm-node#readme",
   "devDependencies": {},
   "scripts": {
-    "test": "now"
+    "test": "digm now"
   }
 }
